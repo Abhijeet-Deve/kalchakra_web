@@ -1,0 +1,1188 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Maxim Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Maxim
+  * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Rocky's Astrlogy</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="{% static 'assets/img/non.jpg' %}" alt="">
+
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2>Welcome to Astrology with Rocky</h2>
+            <p>Discover your destiny through the stars — personalized horoscope, zodiac insights, and spiritual guidance from trusted experts</p>
+            <a href="#about" class="btn-get-started">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>"Discover the power of Vedic astrology to unlock your life's purpose, overcome challenges, and find true harmony in love, career, and health."</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-3">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="{% static 'assets/img/about-1.jpg' %}" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content ps-0 ps-lg-3">
+              <h3>Meet Abhijeet — Your Trusted Astrologer</h3>
+              <p class="fst-italic">
+                I am Abhijeet, a professional astrologer with over 4 years of experience helping people understand their destiny and unlock their true potential through the wisdom of astrology.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-diagram-3"></i>
+                  <div>
+                    <h4>Breakup Probleam and dealy marriage</h4>
+                    <p>Get permanent solution of breakup and dealy marriage</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bi bi-fullscreen-exit"></i>
+                  <div>
+                    <h4>Personalized Horoscope Readings</h4>
+                    <p>Get accurate daily, weekly, and yearly horoscopes tailored specifically for your birth chart and planetary positions.</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bi bi-heart-pulse"></i>
+                  <div>
+                    <h4>Relationship & Marriage Compatibility</h4>
+                    <p>Using advanced Kundli matching and Vedic astrology, I help individuals and couples find harmony in relationships and married life.</p>
+                  </div>
+                </li>
+              </ul>
+              <p>
+                Whether you're facing challenges in love, career, health, or finance, I provide clear and compassionate guidance based on your stars. Let's decode your future and create a balanced, prosperous life through astrology.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+<!-- Cards Section -->
+<section id="cards" class="cards section light-background">
+
+  <div class="container">
+
+    <div class="row no-gutters">
+
+      <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="100">
+        <span>01</span>
+        <h4>Personal Horoscope</h4>
+        <p>Get accurate insights about your life's journey, personality traits, and future predictions based on your birth chart.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="200">
+        <span>02</span>
+        <h4>Love & Relationship</h4>
+        <p>Discover your true compatibility with your partner and receive guidance for a harmonious love life.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="300">
+        <span>03</span>
+        <h4>Career & Business</h4>
+        <p>Confused about your career path or facing setbacks? Let the stars guide you towards the right decisions.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="400">
+        <span>04</span>
+        <h4>Health Predictions</h4>
+        <p>Know about upcoming health risks and get preventive astrological remedies for a balanced well-being.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="500">
+        <span>05</span>
+        <h4>Marriage Matching</h4>
+        <p>Find your perfect match with detailed Kundali matching services, backed by Vedic astrology traditions.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="600">
+        <span>06</span>
+        <h4>Astro Remedies</h4>
+        <p>Get personalized gemstone recommendations, mantra suggestions, and rituals to overcome life's challenges.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Cards Section -->
+
+    <!-- Tabs Section -->
+    <section id="tabs" class="tabs section">
+
+      <div class="container">
+        <div class="row justify-content-between">
+    
+          <div class="col-lg-5 d-flex align-items-center">
+    
+            <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabs-tab-1">
+                  <i class="bi bi-calendar4-week"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">Daily Horoscope</h4>
+                    <p>Start your day with accurate planetary insights tailored to your zodiac sign — guidance for love, money, and health.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-2">
+                  <i class="bi bi-person-lines-fill"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">Personal Consultation</h4>
+                    <p>One-on-one astrology sessions with Abhijeet to uncover hidden truths, find remedies, and get life direction.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-3">
+                  <i class="bi bi-stars"></i>
+                  <div>
+                    <h4 class="d-none d-lg-block">Vedic Chart Reading</h4>
+                    <p>Deep analysis of your Kundali using ancient Vedic techniques to discover strengths, weaknesses, and karmic patterns.</p>
+                  </div>
+                </a>
+              </li>
+            </ul><!-- End Tab Nav -->
+    
+          </div>
+    
+          <div class="col-lg-6">
+    
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+    
+              <div class="tab-pane fade active show" id="tabs-tab-1">
+                <img src="{% static 'assets/img/tamil.avif' %}" alt="Daily Horoscope" class="img-fluid">
+              </div>
+    
+              <div class="tab-pane fade" id="tabs-tab-2">
+                <img src="{% static 'assets/img/tabs-2.jpg' %}" alt="Personal Consultation" class="img-fluid">
+              </div>
+    
+              <div class="tab-pane fade" id="tabs-tab-3">
+                <img src="{% static 'assets/img/tabs-3.jpg' %}" alt="Vedic Chart Reading" class="img-fluid">
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </section>
+    <!-- /Tabs Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>Get personalized guidance from Astrologer Abhijeet — over 4 years of experience in Vedic Astrology and relationship counseling.</p>
+      </div>
+    
+      <div class="container">
+        <div class="row g-5">
+    
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <i class="bi bi-calendar2-week icon"></i>
+              <div>
+                <h3>Personal Horoscope Reading</h3>
+                <p>Get a detailed reading of your birth chart to understand your strengths, challenges, and upcoming opportunities in life.</p>
+                <a href="#contact" class="read-more stretched-link">Book Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <i class="bi bi-heart-fill icon"></i>
+              <div>
+                <h3>Love & Relationship Guidance</h3>
+                <p>Confused in love? I help you find the right path and reveal the compatibility and future of your current or future partner.</p>
+                <a href="#contact" class="read-more stretched-link">Book Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <i class="bi bi-briefcase icon"></i>
+              <div>
+                <h3>Career & Business Advice</h3>
+                <p>Struggling in your career or business? Let's explore the best fields, timeframes, and remedies for success.</p>
+                <a href="#contact" class="read-more stretched-link">Book Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-pink position-relative">
+              <i class="bi bi-emoji-frown icon"></i>
+              <div>
+                <h3>Breakup Problem Solutions</h3>
+                <p>Heartbreaks can be heavy. Get emotional and astrological support to heal and understand what lies ahead in love.</p>
+                <a href="#contact" class="read-more stretched-link">Book Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-red position-relative">
+              <i class="bi bi-people-fill icon"></i>
+              <div>
+                <h3>Marriage Problem Solutions</h3>
+                <p>Facing conflicts or delays in marriage? Get expert astrological solutions and dosha remedies to restore harmony.</p>
+                <a href="#contact" class="read-more stretched-link">Book Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-green position-relative">
+              <i class="bi bi-hospital icon"></i>
+              <div>
+                <h3>Health & Wellness Astrology</h3>
+                <p>Discover hidden causes of health issues and receive personalized astrological remedies for better physical and mental well-being.</p>
+                <a href="#contact" class="read-more stretched-link">Book Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <!-- /Services Section -->
+
+    <section id="zodiac" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Daily Zodiac Predictions</h2>
+        <p>Select your zodiac sign to explore today’s astrology insights.</p>
+      </div>
+    
+      <div class="container">
+        <div class="row g-5">
+    
+          <!-- Aries -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-red position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♈</span> Aries (Mar 21 – Apr 19)</h3>
+                <p>Take initiative and lead the way. Today brings strong energy for action and confidence.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Taurus -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="service-item item-orange position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♉</span> Taurus (Apr 20 – May 20)</h3>
+                <p>Focus on financial and emotional stability. Practical decisions will bring lasting rewards.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Gemini -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-yellow position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♊</span> Gemini (May 21 – Jun 20)</h3>
+                <p>Communication is your strength today. Share your ideas and connect with others.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Cancer -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-item item-pink position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♋</span> Cancer (Jun 21 – Jul 22)</h3>
+                <p>Trust your emotions. Your intuition and care will guide you through any situation.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Leo -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-cyan position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♌</span> Leo (Jul 23 – Aug 22)</h3>
+                <p>Shine bright and take pride in your talents. Recognition is on the horizon.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Virgo -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="service-item item-indigo position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♍</span> Virgo (Aug 23 – Sep 22)</h3>
+                <p>Focus on the details and your health. Organizing your day will bring satisfaction.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Libra -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-teal position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♎</span> Libra (Sep 23 – Oct 22)</h3>
+                <p>Balance your needs and others’. Harmony in relationships brings peace today.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Scorpio -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="450">
+            <div class="service-item item-red position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♏</span> Scorpio (Oct 23 – Nov 21)</h3>
+                <p>Let go of the past. Transformation and emotional strength define your day.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Sagittarius -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-orange position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♐</span> Sagittarius (Nov 22 – Dec 21)</h3>
+                <p>Adventure calls! Embrace opportunities for learning and exploration.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Capricorn -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="550">
+            <div class="service-item item-green position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♑</span> Capricorn (Dec 22 – Jan 19)</h3>
+                <p>Your discipline pays off. Tackle your responsibilities with confidence.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Aquarius -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-blue position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♒</span> Aquarius (Jan 20 – Feb 18)</h3>
+                <p>Innovative thoughts flow freely. Share your vision and inspire change.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Pisces -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="650">
+            <div class="service-item item-purple position-relative">
+              <div>
+                <h3><span class="zodiac-symbol">♓</span> Pisces (Feb 19 – Mar 20)</h3>
+                <p>Embrace creativity and compassion. Let your heart lead your actions today.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <style>
+      .zodiac-symbol {
+        font-size: 1.8rem;
+        margin-right: 6px;
+      }
+    </style>
+    
+    
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>See what our clients have to say about their astrological journey with Abhijeet Joshi.</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Abhijeet’s predictions about my relationship helped me take the right decisions at the right time. Truly gifted!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/kajal.jpg' %}" class="testimonial-img" alt="">
+                <h3>Kajal Joshi</h3>
+                <h4>Student</h4>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I had career confusion and Abhijeet gave me clear, spot-on advice that actually worked. Highly recommended!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/vaibhavi-1.jpg' %}" class="testimonial-img" alt="">
+                <h3>Vaibhavi Nakate</h3>
+                <h4>Software Developer</h4>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>My business was struggling until I followed Abhijeet’s astrology-based suggestions. Things improved quickly!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/akshay.jpg' %}" class="testimonial-img" alt="">
+                <h3>Akshay Gaude</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Break-up phase was tough but Abhijeet's counseling brought me strength and a new perspective. Thank you!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/bhau.jpg' %}" class="testimonial-img" alt="">
+                <h3>Aditya Nandkihle</h3>
+                <h4>C.A</h4>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I consulted for my marriage timing and the advice was so precise. I’m happily married now!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/pratik.jpg' %}" class="testimonial-img" alt="">
+                <h3>pratik Umbarkar</h3>
+                <h4>Indian railway T.C</h4>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I was amazed by how accurate the predictions were. Abhijeet truly understands the stars and people.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/testimonials-5.jpg' %}" class="testimonial-img" alt="">
+                <h3>Rajesh Mali</h3>
+                <h4>Photographar</h4>
+              </div>
+            </div>
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>i can't trust astrology but when i contact with Abhijeet relly my life is change and i happy to share you this is very good consoler </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/sanika.jpg' %}" class="testimonial-img" alt="">
+                <h3>sanika sankapal</h3>
+                <h4>Railway T.C</h4>
+              </div>
+            </div>
+
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Abhijeet truly understands the stars and people. And Thank you for help me </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="{% static 'assets/img/testimonials/A_g.jpg' %}" class="testimonial-img" alt="">
+                <h3>Akash Gonde</h3>
+                <h4>Full Stack Developer</h4>
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+    
+      </div>
+    
+    </section><!-- /Testimonials Section -->
+    
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Explore our past consultations, success stories, and the positive impact of astrological guidance. Every chart tells a story — see how we've helped clients find clarity and direction.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            {% comment %} <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Product</li>
+            <li data-filter=".filter-branding">Branding</li>
+            <li data-filter=".filter-books">Books</li> {% endcomment %}
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-1.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-1.jpg' %}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-2.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-2.jpg' %}" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-3.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-3.jpg' %}" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-4.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-4.jpg' %}" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-5.webp' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-5.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-6.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-6.jpg' %}" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-7.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-7.jpg' %}" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-8.webp' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-8.webp' %}" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port-9.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port-9.jpg' %}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port.jpeg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port.jpeg' %}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port11.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port11.jpg' %}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content card shadow-sm">
+                <img src="{% static 'assets/img/portfolio/port12.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/portfolio/port12.jpg' %}" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          
+          <style>
+          .portfolio-content img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+          }
+          
+          .portfolio-content img:hover {
+            transform: scale(1.05);
+          }
+          </style>
+          <!-- End Portfolio Container -->
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="{% static 'assets/img/team/my_image.jpg' %}" class="img-fluid" alt="">
+              
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Abhijeet Joshi</h4>
+                  <span>Chief Executive Officer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="{% static 'assets/img/team/bhau.jpg' %}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ganesh Shastree</h4>
+                  <span>Vedic Astrologer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'assets/img/team/jigar.jpg' %}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Joshi Guruji</h4>
+                  <span>Relatinship Specialist</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="{% static 'assets/img/team/teamm4.jpg' %}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Aman kulkarni</h4>
+                  <span>predictive astrologer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section>
+    
+    
+
+    <section id="team" class="team section">
+      <style>
+        .team .member img {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+      </style>
+      ...
+    </section>
+    
+    <!-- /Team Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Common questions about astrology and our services</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div class="faq-container">
+    
+              <div class="faq-item faq-active">
+                <h3>What is astrology and how does it work?</h3>
+                <div class="faq-content">
+                  <p>Astrology is the study of the movements and relative positions of celestial bodies interpreted as having an influence on human affairs. By analyzing your birth chart, astrologers provide guidance on personality, career, health, and relationships.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>What details are required for a personal astrology reading?</h3>
+                <div class="faq-content">
+                  <p>We need your full name, date of birth, time of birth, and place of birth to create an accurate horoscope and provide personalized insights.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>Can astrology help me make better career or business decisions?</h3>
+                <div class="faq-content">
+                  <p>Yes, astrology can help you understand your strengths and the most favorable time periods for starting new ventures, making investments, or changing careers.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>Is astrology useful for marriage and relationship compatibility?</h3>
+                <div class="faq-content">
+                  <p>Absolutely. Kundali matching (horoscope matching) is an important part of marriage decisions in Vedic astrology. It assesses compatibility in areas like personality, emotional connection, and long-term harmony.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>How accurate are astrological predictions?</h3>
+                <div class="faq-content">
+                  <p>Astrology is not magic, but when done by an experienced astrologer using correct birth data, it can be surprisingly accurate in identifying patterns and timing. It offers guidance, not guarantees.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+              <div class="faq-item">
+                <h3>Do you provide remedies or solutions for planetary issues?</h3>
+                <div class="faq-content">
+                  <p>Yes, we suggest effective Vedic remedies like mantras, gemstones, fasting, and rituals based on your horoscope to reduce the impact of malefic planets and improve overall well-being.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+    
+            </div>
+          </div><!-- End Faq Column-->
+        </div>
+      </div>
+    
+    </section><!-- /Faq Section -->
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Have questions about your future, career, or relationships? Connect with Astrologer Abhijeet for accurate guidance and personalized advice.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>ANirman upavan C-3, Sita Gufaa Rd, opposite Kalaram Temple East door, Panchavati, Nashik, Maharashtra 422003</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>9923050556</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>rockysastrology@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Maxim</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Nirman upavan C-3, Sita Gufaa Rd, opposite Kalaram Temple East door, Panchavati, Nashik, Maharashtra 422003</p>
+            
+            <p class="mt-3"><strong>Phone:</strong> <span>9923050556</span></p>
+            <p><strong>Email:</strong> <span>rockysastrology@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Home</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> About us</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Terms of service</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Horoscope Reading</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Love & Relationship</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Career Guidance</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Breakup Solutions</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Marriage Problems</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Health Astrology</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Astrology Newsletter</h4>
+          <p>Subscribe to receive personalized astrology tips, daily horoscopes, and updates on astrological remedies directly in your inbox.</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form">
+              <input type="email" name="email" placeholder="Enter your email">
+              <input type="submit" value="Subscribe">
+            </div>
+            <div class="loading">Loading...</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription has been received. Thank you!</div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Maxim</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  
+
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+
+</body>
+
+</html>
