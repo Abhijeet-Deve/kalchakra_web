@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Kalchakra Astrology</title>
+  <title>Shree Swami Samrth Jyotish Karyalaya</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -37,17 +37,38 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+
+<style>
+  @keyframes vibrate {
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(-2px); }
+    40%  { transform: translateX(2px); }
+    60%  { transform: translateX(-2px); }
+    80%  { transform: translateX(2px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .vibrate-btn {
+    display: inline-flex;
+    align-items: center;
+    animation: vibrate 0.4s ease-in-out infinite;
+  }
+  </style>
+  
+
+
+  
+
+<body class="index-page" style="--background-color: #f0cb95">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">कालचक्र ज्योतिष कार्यालय</h1>
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">श्री स्वामी समर्थ ज्योतिष कार्यालय</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
@@ -55,49 +76,74 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
+      
+          <!-- Replaced Dropdown with WhatsApp -->
+          <li>
+            <a href="tel:+918766813965" class="btn vibrate-btn"
+               style="background-color: #ff5722; color: white; font-weight: bold; padding: 10px 20px; border-radius: 8px;">
+              <i class="bi bi-telephone-fill"></i> Call Now
+            </a>
           </li>
+          
+
+
+          <li>
+            <a href="https://wa.me/918766813965?text=नमस्कार%20अभिजीत%20सर,%20मला%20ज्योतिष%20सल्ला%20घ्यायचा%20आहे."
+               target="_blank"
+               class="btn vibrate-btn"
+               style="background-color: #25D366; color: white; font-weight: bold; padding: 10px 20px; border-radius: 8px;">
+              <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+          </li>
+          
+          
+          
+      
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
+      
+      
     </div>
+    
   </header>
+  
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="{% static 'assets/img/non.jpg' %}" alt="">
-    
+    <section class="hero section dark-background" style="--background-color: #ed8f0e; background-color: #ed8f0e;">
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <h2>कालचक्र ज्योतिष कार्यालयात आपले स्वागत आहे</h2>
-            <p>तार्‍यांच्या माध्यमातून आपल्या भविष्याचा वेध घ्या — वैयक्तिक कुंडली, राशीभविष्य, आणि अनुभवी ज्योतिषांकडून अध्यात्मिक मार्गदर्शन</p>
-            <a href="#about" class="btn-get-started">सुरू करा</a>
+    
+            <!-- 🖼️ Image above the text -->
+            <img src="{% static 'assets/img/faccd05af63479fa436b81f1a8596346.jpg' %}" alt="Swami Samarth" style="max-width: 200px; height: auto; margin-bottom: 20px;">    
+            <!-- Heading and text -->
+            <h2 style="color: #2d0a00; font-weight: 700;">
+              श्री स्वामी समर्थ ज्योतिष कार्यालयात आपले स्वागत आहे
+            </h2>
+    
+            <p style="color: #3e1f00; font-size: 20px;">
+              तार्‍यांच्या माध्यमातून आपल्या भविष्याचा वेध घ्या — वैयक्तिक कुंडली, राशीभविष्य, आणि अनुभवी ज्योतिषांकडून अध्यात्मिक मार्गदर्शन
+            </p>
+    
+            <!-- CTA Button -->
+            <a href="https://www.astrosage.com/kundli/" class="btn-get-started" style="
+              background-color: #ffffff;
+              color: #ed8f0e;
+              border: 2px solid white;
+              font-weight: bold;
+            ">
+              सुरू करा
+            </a>
           </div>
         </div>
       </div>
-    
-    </section><!-- /Hero Section -->
+    </section>
+   
+    <!-- /Hero Section -->
     
 <!-- About Section -->
 <section id="about" class="about section">
@@ -112,15 +158,14 @@
     <div class="row gy-3">
       
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <img src="{% static 'assets/img/about-1.jpg' %}" alt="" class="img-fluid">
+        <img src="{% static 'assets/img/depositphoto.webp' %}" alt="" class="img-fluid">
       </div>
 
       <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
         <div class="about-content ps-0 ps-lg-3">
-          <h3>आमचे ज्योतिषी अभिजीत — तुमचे मार्गदर्शक</h3>
+          <h3>आमचे ज्योतिषी पंडित नंदराज जी शास्त्री — तुमचे मार्गदर्शक</h3>
           <p class="fst-italic">
-            मी अभिजीत, एक व्यावसायिक ज्योतिषी आहे. गेल्या ४ वर्षांपासून मी लोकांना त्यांच्या ग्रहस्थितीवर आधारित जीवन समजून घेण्यास आणि योग्य मार्ग शोधण्यास मदत करत आहे.
-          </p>
+            मी पंडित नंदराज जी शास्त्री, एक व्यावसायिक ज्योतिषी आहे. गेल्या १४ वर्षांपासून मी लोकांना त्यांच्या ग्रहस्थितीवर आधारित जीवन समजून घेण्यास आणि योग्य मार्ग शोधण्यास मदत करत आहे.          </p>
           <ul>
             <li>
               <i class="bi bi-diagram-3"></i>
@@ -154,7 +199,7 @@
 </section>
 <!-- /About Section -->
 
-<section id="cards" class="cards section light-background">
+<section id="cards" class="cards section light-background" style="--background-color: #f0cb95">
 
   <div class="container">
 
@@ -192,10 +237,10 @@
 
       <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="600">
         <span>06</span>
-        <h4>ज्योतिष उपाय</h4>
-        <p>तुमच्या समस्या दूर करण्यासाठी खास रत्नधारण, मंत्र व पूजाविधी यांचे मार्गदर्शन मिळवा.</p>
+        <h4>ब्रेकअप समस्या</h4>
+        <p>ब्रेकअपमुळे उद्भवलेल्या मानसिक त्रासावर उपाय शोधा — प्रेम परत मिळवण्यासाठी प्रभावी ज्योतिष सल्ला घ्या.</p>
       </div>
-
+      
     </div>
 
   </div>
@@ -228,7 +273,7 @@
                   <i class="bi bi-person-lines-fill"></i>
                   <div>
                     <h4 class="d-none d-lg-block">वैयक्तिक सल्ला</h4>
-                    <p>अभिजीत यांच्याकडून एक-ते-एक सल्ला, ज्यात तुमच्या प्रश्नांची उत्तरं, उपाय आणि योग्य दिशा मिळेल.</p>
+                    <p>पंडित नंदराज जी शास्त्री यांच्याकडून एक-ते-एक सल्ला, ज्यात तुमच्या प्रश्नांची उत्तरं, उपाय आणि योग्य दिशा मिळेल.</p>
                   </div>
                 </a>
               </li>
@@ -277,7 +322,7 @@
     <section id="services" class="services section">
       <div class="container section-title" data-aos="fade-up">
         <h2>आमच्या सेवा</h2>
-        <p>ज्योतिषी अभिजीत यांच्याकडून वैयक्तिक मार्गदर्शन मिळवा — वैदिक ज्योतिष आणि नातेसंबंध सल्लागार म्हणून ४ वर्षांचा अनुभव.</p>
+        <p>ज्योतिषी पंडित नंदराज जी शास्त्री यांच्याकडून वैयक्तिक मार्गदर्शन मिळवा — वैदिक ज्योतिष आणि नातेसंबंध सल्लागार म्हणून ४ वर्षांचा अनुभव.</p>
       </div>
     
       <div class="container">
@@ -355,138 +400,115 @@
     
     <!-- /Services Section -->
 
-    <section id="zodiac" class="services section">
+    <section id="personality" class="services section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>दैनिक राशीभविष्य</h2>
-        <p>आजचे ज्योतिष मार्गदर्शन जाणून घेण्यासाठी तुमची रास निवडा.</p>
+        <h2>व्यक्तिमत्व राशीभविष्य</h2>
+        <p>तुमची रास निवडा आणि तुमचं व्यक्तिमत्व जाणून घ्या.</p>
       </div>
     
       <div class="container">
-        <div class="row g-5">
+        <div class="row g-4">
     
           <!-- Aries -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-red position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♈</span> मेष (२१ मार्च – १९ एप्रिल)</h3>
-                <p>पुढाकार घ्या आणि मार्गदर्शक बना. आजचा दिवस उत्साह व आत्मविश्वासाने परिपूर्ण आहे.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=aries" class="service-item item-red position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♈</span> मेष (Aries)</h3>
+              <p>निरपेक्ष उर्जा, नेतृत्वगुण आणि धाडस. आजचे दिवस विशेषतः उत्कृष्ट आहे...</p>
+            </a>
           </div>
     
           <!-- Taurus -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
-            <div class="service-item item-orange position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♉</span> वृषभ (२० एप्रिल – २० मे)</h3>
-                <p>आर्थिक व भावनिक स्थिरतेवर लक्ष केंद्रित करा. व्यावहारिक निर्णय दीर्घकालीन फायदे देतील.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=taurus" class="service-item item-orange position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♉</span> वृषभ (Taurus)</h3>
+              <p>स्थिरता, कलात्मकता व धैर्य. आज तुमच्या आर्थिक वाटचालीत विकास दिसेल...</p>
+            </a>
           </div>
     
           <!-- Gemini -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-yellow position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♊</span> मिथुन (२१ मे – २० जून)</h3>
-                <p>संवाद तुमचं बलस्थान आहे. तुमचे विचार शेअर करा आणि इतरांशी जोडले जाऊन लाभ घ्या.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=gemini" class="service-item item-yellow position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♊</span> मिथुन (Gemini)</h3>
+              <p>संवाद कौशल उत्कृष्ट असेल. एकाच वेळी अनेक गोष्टी हाताळण्याची क्षमता...</p>
+            </a>
           </div>
     
           <!-- Cancer -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
-            <div class="service-item item-pink position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♋</span> कर्क (२१ जून – २२ जुलै)</h3>
-                <p>तुमच्या भावना ऐका. अंतर्ज्ञान आणि काळजी तुमच्या समस्यांचे निराकरण करतील.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=cancer" class="service-item item-pink position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♋</span> कर्क (Cancer)</h3>
+              <p>भावनाशीलता आणि घरासाठी समर्पण. अंतर्ज्ञानाची धार तीव्र असेल...</p>
+            </a>
           </div>
     
           <!-- Leo -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-cyan position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♌</span> सिंह (२३ जुलै – २२ ऑगस्ट)</h3>
-                <p>तुमची कला व प्रतिभा खुलेपणाने दाखवा. लवकरच सन्मान मिळेल.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=leo" class="service-item item-cyan position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♌</span> सिंह (Leo)</h3>
+              <p>नेतृत्वगुण, आत्मविश्वास आणि सर्जनशीलता तुमच्यात प्रकट होईल...</p>
+            </a>
           </div>
     
           <!-- Virgo -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
-            <div class="service-item item-indigo position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♍</span> कन्या (२३ ऑगस्ट – २२ सप्टेंबर)</h3>
-                <p>तपशील व आरोग्यावर लक्ष केंद्रित करा. नीटनेटका दिवस समाधान देईल.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=virgo" class="service-item item-indigo position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♍</span> कन्या (Virgo)</h3>
+              <p>तपशीलांवर लक्ष. कार्यात अचूकता आणि नियोजन यश मिळवून देतील...</p>
+            </a>
           </div>
     
           <!-- Libra -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item item-teal position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♎</span> तुला (२३ सप्टेंबर – २२ ऑक्टोबर)</h3>
-                <p>स्वतःच्या गरजा आणि इतरांच्या गरजा यामध्ये समतोल ठेवा. नात्यांमध्ये शांतता लाभेल.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=libra" class="service-item item-teal position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♎</span> तुला (Libra)</h3>
+              <p>सौंदर्य, संतुलन आणि नात्यांमध्ये सामंजस्य वाढवणारा दिवस...</p>
+            </a>
           </div>
     
           <!-- Scorpio -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="450">
-            <div class="service-item item-red position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♏</span> वृश्चिक (२३ ऑक्टोबर – २१ नोव्हेंबर)</h3>
-                <p>भूतकाळ विसरून पुढे जा. रूपांतरण व मानसिक ताकद आजची खासियत असेल.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=scorpio" class="service-item item-red position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♏</span> वृश्चिक (Scorpio)</h3>
+              <p>भावनात्मक उंची, निष्ठा आणि गूढतेचा प्रभाव जाणवेल...</p>
+            </a>
           </div>
     
           <!-- Sagittarius -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item item-orange position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♐</span> धनु (२२ नोव्हेंबर – २१ डिसेंबर)</h3>
-                <p>संधी मिळतील — नवीन ज्ञान व प्रवासाचे स्वागत करा.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=sagittarius" class="service-item item-orange position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♐</span> धनु (Sagittarius)</h3>
+              <p>विद्येची ओढ, प्रवासाची संधी आणि सकारात्मकतेने परिपूर्ण दिवस...</p>
+            </a>
           </div>
     
           <!-- Capricorn -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="550">
-            <div class="service-item item-green position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♑</span> मकर (२२ डिसेंबर – १९ जानेवारी)</h3>
-                <p>शिस्तबद्ध कामगिरीचे फळ मिळेल. जबाबदाऱ्या आत्मविश्वासाने पूर्ण करा.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=capricorn" class="service-item item-green position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♑</span> मकर (Capricorn)</h3>
+              <p>शिस्त, कठोर परिश्रम आणि ध्येय निश्चितीमुळे यश तुमचं वाटचाल करेल...</p>
+            </a>
           </div>
     
           <!-- Aquarius -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item item-blue position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♒</span> कुंभ (२० जानेवारी – १८ फेब्रुवारी)</h3>
-                <p>नवीन कल्पना सुचतील. तुमचा दृष्टिकोन शेअर करा व सकारात्मक बदल घडवा.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=aquarius" class="service-item item-blue position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♒</span> कुंभ (Aquarius)</h3>
+              <p>सामाजिक बांधिलकी, विचारशक्ती आणि नाविन्य यांचा संगम जाणवेल...</p>
+            </a>
           </div>
     
           <!-- Pisces -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="650">
-            <div class="service-item item-purple position-relative">
-              <div>
-                <h3><span class="zodiac-symbol">♓</span> मीन (१९ फेब्रुवारी – २० मार्च)</h3>
-                <p>सर्जनशीलता आणि करुणा स्वीकारा. तुमचं हृदयच आज तुमचं मार्गदर्शन करेल.</p>
-              </div>
-            </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <a href="/personality/?sign=pisces" class="service-item item-purple position-relative text-decoration-none text-dark">
+              <h3><span class="zodiac-symbol">♓</span> मीन (Pisces)</h3>
+              <p>कल्पकता, सहानुभूती आणि अंतर्मुख भावना व्यक्त होण्यासाठी योग्य वेळ...</p>
+            </a>
           </div>
     
         </div>
       </div>
     </section>
+    
     
     
     <style>
@@ -504,7 +526,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>ग्राहकांचे अभिप्राय</h2>
-        <p>अभिजीत जोशी यांच्यासोबतच्या ज्योतिष मार्गदर्शन प्रवासाविषयी आमच्या ग्राहकांचे अनुभव वाचा.</p>
+        <p>पंडित नंदराज जी शास्त्री यांच्यासोबतच्या ज्योतिष मार्गदर्शन प्रवासाविषयी आमच्या ग्राहकांचे अनुभव वाचा.</p>
       </div><!-- End Section Title -->
     
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -534,7 +556,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>माझ्या रिलेशनशिपबद्दल अभिजीत यांनी दिलेलं मार्गदर्शन योग्य वेळी उपयोगी पडलं. खरंच अफलातून आहेत!</span>
+                  <span>माझ्या रिलेशनशिपबद्दल पंडित नंदराज शास्त्री यांनी दिलेलं मार्गदर्शन योग्य वेळी उपयोगी पडलं. खरंच अफलातून आहेत!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'assets/img/testimonials/kajal.jpg' %}" class="testimonial-img" alt="">
@@ -547,7 +569,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>माझं करिअर कन्फ्युजन होतं, पण अभिजीत यांनी खूप स्पष्ट आणि प्रभावी सल्ला दिला. खूप उपयुक्त!</span>
+                  <span>माझं करिअर कन्फ्युजन होतं, पण पंडित नंदराज शास्त्री यांनी खूप स्पष्ट आणि प्रभावी सल्ला दिला. खूप उपयुक्त!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'assets/img/testimonials/vaibhavi-1.jpg' %}" class="testimonial-img" alt="">
@@ -560,7 +582,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>माझा व्यवसाय अडचणीत होता. अभिजीत यांच्या उपायांनी परिस्थिती झपाट्याने सुधारली!</span>
+                  <span>माझा व्यवसाय अडचणीत होता. नंदराज शास्त्री यांच्या उपायांनी परिस्थिती झपाट्याने सुधारली!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'assets/img/testimonials/akshay.jpg' %}" class="testimonial-img" alt="">
@@ -573,7 +595,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>ब्रेकअपच्या काळात अभिजीत यांच्या समुपदेशनाने मला आधार आणि नवीन दृष्टी दिली. खूप आभार!</span>
+                  <span>ब्रेकअपच्या काळात पंडित नंदराज जी शास्त्री यांच्या समुपदेशनाने मला आधार आणि नवीन दृष्टी दिली. खूप आभार!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'assets/img/testimonials/bhau.jpg' %}" class="testimonial-img" alt="">
@@ -599,7 +621,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>भविष्यवाणी इतकी अचूक असेल हे वाटलंच नव्हतं. अभिजीत खरोखर ज्योतिषशास्त्रात पारंगत आहेत.</span>
+                  <span>भविष्यवाणी इतकी अचूक असेल हे वाटलंच नव्हतं. पंडित नंदराज जी शास्त्री खरोखर ज्योतिषशास्त्रात पारंगत आहेत.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'assets/img/testimonials/testimonials-5.jpg' %}" class="testimonial-img" alt="">
@@ -612,7 +634,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>माझा ज्योतिषावर विश्वास नव्हता, पण अभिजीत यांच्याशी संपर्क साधल्यावर माझं आयुष्य खरंच बदललं. ते उत्तम समुपदेशक आहेत.</span>
+                  <span>माझा ज्योतिषावर विश्वास नव्हता, पण पंडित नंदराज शास्त्री यांच्याशी संपर्क साधल्यावर माझं आयुष्य खरंच बदललं. ते उत्तम समुपदेशक आहेत.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'assets/img/testimonials/sanika.jpg' %}" class="testimonial-img" alt="">
@@ -625,7 +647,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>अभिजीत यांना केवळ ग्रह नव्हे तर माणसांचंही उत्तम ज्ञान आहे. त्यांच्या मदतीसाठी मनापासून आभार!</span>
+                  <span>पंडित नंदराज जी शास्त्री यांना केवळ ग्रह नव्हे तर माणसांचंही उत्तम ज्ञान आहे. त्यांच्या मदतीसाठी मनापासून आभार!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'assets/img/testimonials/A_g.jpg' %}" class="testimonial-img" alt="">
@@ -993,8 +1015,8 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>संपर्क करा</h2>
-        <p>तुमच्या भविष्य, करिअर किंवा नातेसंबंधांबद्दल प्रश्न आहेत का? अचूक मार्गदर्शनासाठी आणि वैयक्तिक सल्ल्यासाठी ज्योतिषी अभिजीत यांच्याशी संपर्क साधा.</p>
-      </div><!-- End Section Title -->
+        <p>तुमच्या भविष्य, करिअर किंवा नातेसंबंधांबद्दल प्रश्न आहेत का? अचूक मार्गदर्शनासाठी आणि वैयक्तिक सल्ल्यासाठी ज्योतिषी पंडित नंदराज शास्त्री यांच्याशी संपर्क साधा.</p>
+      </div>
     
       <div class="container" data-aos="fade-up" data-aos-delay="100">
     
@@ -1002,74 +1024,56 @@
     
           <div class="col-lg-5">
             <div class="info-wrap">
+    
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>पत्ता</h3>
                   <p>ANirman Upavan C-3, सीता गुफा रोड, कालाराम मंदिर पूर्व दरवाजा समोर, पंचवटी, नाशिक, महाराष्ट्र 422003</p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>
     
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>फोन</h3>
-                  <p>9923050556</p>
+                  <p><a href="tel:+918766813965">+91 8766813965</a></p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>
     
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>ई-मेल</h3>
-                  <p>rockysastrology@gmail.com</p>
+                  <p><a href="mailto:rockysastrology@gmail.com">rockysastrology@gmail.com</a></p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>
     
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2us!4v1676961268712!5m2!1sen!2us" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.036197864959!2d73.7926538739965!3d20.006995422089286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddea54af93f661%3A0x24d9baa56b890e57!2sShree%20Kaalaram%20Mandir%20Panchvati%20Nashik!5e0!3m2!1sen!2sin!4v1752048665466!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     
+    
             </div>
           </div>
     
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-center">
+            <h3 class="mb-4">थेट संपर्क करा</h3>
     
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">तुमचं नाव</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
+            <a href="tel:+918766813965" class="btn btn-danger m-2 vibrate-btn" style="font-size: 18px;">
+              <i class="bi bi-telephone-fill"></i> कॉल करा
+            </a>
     
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">तुमचा ई-मेल</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-    
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">विषय</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-    
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">संदेश</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-    
-                <div class="col-md-12 text-center">
-                  <div class="loading">लोड होत आहे...</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">तुमचा संदेश पाठवण्यात आला आहे. धन्यवाद!</div>
-    
-                  <button type="submit">संदेश पाठवा</button>
-                </div>
-    
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+            <a href="https://wa.me/918766813965?text=नमस्कार%20अभिजीत%20सर,%20मला%20ज्योतिष%20सल्ला%20घ्यायचा%20आहे."
+               target="_blank"
+               class="btn btn-success m-2 vibrate-btn"
+               style="font-size: 18px;">
+              <i class="bi bi-whatsapp"></i> WhatsApp वर संपर्क करा
+            </a>
+          </div>
     
         </div>
       </div>
+    </section>
     
-    </section><!-- /Contact Section -->
     
   </main>
 
@@ -1084,7 +1088,7 @@
           <div class="footer-contact pt-3">
             <p>निर्माण उपवन C-3, सीता गुफा रोड, कालाराम मंदिर पूर्व दरवाजा समोर, पंचवटी, नाशिक, महाराष्ट्र 422003</p>
   
-            <p class="mt-3"><strong>फोन:</strong> <span>9923050556</span></p>
+            <p class="mt-3"><strong>फोन:</strong> <span>8766813965</span></p>
             <p><strong>ई-मेल:</strong> <span>rockysastrology@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
@@ -1098,11 +1102,10 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>महत्वाचे लिंक्स</h4>
           <ul>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> मुख्यपृष्ठ</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> आमच्याबद्दल</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> सेवा</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> सेवा अटी</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> गोपनीयता धोरण</a></li>
+            <li><a href="#hero"><i class="bi bi-chevron-right"></i> मुख्यपृष्ठ</a></li>
+            <li><a href="#about"><i class="bi bi-chevron-right"></i> आमच्याबद्दल</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> सेवा</a></li>
+           
           </ul>
         </div>
   
@@ -1168,3 +1171,7 @@
 </body>
 
 </html>
+
+
+
+
